@@ -15,17 +15,35 @@ const exp = [
   {
     title: "Virtual Customer Service Associate",
     cardImage: "assets/images/experience-page/Amazon.png",
-    place: "Amazon",
+      place: "Amazon",
+      Location: "Remote",
     time: "(July, 2023 - Aug, 2023)",
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li></li>",
   },
   {
     title: "Web Developer Intern",
     cardImage: "assets/images/experience-page/IPES.png",
-    place: "Indian Pharma Educational Society",
+      place: "Indian Pharma Educational Society",
+      Location: "Lucknow, India",
     time: "(Apr, 2022 - Jun, 2022)",
     desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  },
+    },
+    {
+        title: "Cloud Computing Intern",
+        cardImage: "assets/images/experience-page/MTE.jpg",
+        place: "MedTourEasy",
+        Location: "Remote",
+        time: "(Apr, 2022 - Jun, 2022)",
+        desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    },
+    {
+        title: "Web Developer Intern",
+        cardImage: "assets/images/experience-page/SUN.png",
+        place: "Sun Infotech Solutions",
+        Location: "Lucknow, India",
+        time: "(Oct, 2020 - Nov, 2020)",
+        desp: "<li>Developed an E-Commerce Website as which was Mobile E-Shopping website in which user can see and compare the features of the smartphones and get link for the best price</li>The website was based on ASP.Net Technology</li>",
+    },
 ];
 
 const showCards2 = () => {
@@ -65,28 +83,29 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+        title: "Google Developer Student Club, BBDITM",
+    cardImage: "assets/images/experience-page/gdsc.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Cloud Computing Facilitator at Google Developer Student Club, BBDNITM (6 th August, 2021 – 30th July,2022).",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Google Cloud Skills Boost",
+    cardImage: "assets/images/experience-page/Cloud.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+          "Completed 300+ Google Cloud Labs. My QWIKLABS Profile  https://rb.gy/t110j9 "
+,
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+      title: "HackerRank",
+      cardImage: "assets/images/experience-page/hackerrank.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Gold (5 Star) Badge for Java.",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
+    title: "Internamtional Mathematics Webinar, BBDITM",
+    cardImage: "assets/images/experience-page/Webinar.jpg",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Organized an International Mathematics Webinar conducted in College.",
   },
 ];
 
