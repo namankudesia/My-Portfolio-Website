@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\images",
+    "\\assets\\images\\education-page",
     "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\js\\event.js",
+  "SelectedNode": "\\assets\\images\\education-page\\credly.svg",
   "PreviewInSolutionExplorer": false
 }

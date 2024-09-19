@@ -5,44 +5,45 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+        title: "Modern Application Development with .NET on AWS",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+        moocLink: "https://www.coursera.org/account/accomplishments/specialization/82HRUNUEHFVS",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+      title: "Modern Application Development with Java on AWS",
+      cardImage: "assets/images/education-page/coursera2.svg",
+      moocLink: "https://www.coursera.org/account/accomplishments/specialization/PKYPER86YZRH",
   },
   {
-    title: "Machine Learning",
+      title: "Preparing for Google: Cloud Architect",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+      moocLink: "https://www.coursera.org/account/accomplishments/professional-cert/DFUPY329KYSZ",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+      title: "IPreparing for Google Cloud Certification: Cloud Engineer",
+      cardImage: "assets/images/education-page/coursera2.svg",
+      moocLink: "https://www.coursera.org/account/accomplishments/professional-cert/2CUU7BC3GQP5",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+      title: "Computer System Security",
+      cardImage: "assets/images/education-page/ICT.png", // Update with the new image path
+      moocLink: "https://ict-certificates.s3.ap-south-1.amazonaws.com/21952-95864-c4e907909e5c810c-2021.pdf?trk=public_profile_see-credential",
+
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+      title: "THE FUNDAMENTALS OF DIGITAL MARKETING",
+      cardImage: "assets/images/education-page/Google.webp",
+      moocLink: "https://grow.google/intl/uk/certificate-validation/",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Google Cloud Skills Boost Profile",
+    cardImage: "assets/images/education-page/cloud.png",
+      moocLink: "https://www.cloudskillsboost.google/public_profiles/a55dc416-46cf-464a-8cc0-1d629ac8e4e5",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "Credly Profile",
+    cardImage: "assets/images/education-page/credly.svg",
+      moocLink: "https://www.credly.com/users/naman-kudesia.ac0176ca",
   },
   {
     title: "Intro to React Native",
@@ -61,10 +62,10 @@ const moocscards = [
     moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
   },
   {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
+      title: "Basic Ethical Hacking",
+    cardImage: "assets/images/education-page/learn.jpg",
     moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+      "https://certificates.simplicdn.net/share/2633957_1623668688.pdf?trk=public_profile_see-credential",
   },
 ];
 
