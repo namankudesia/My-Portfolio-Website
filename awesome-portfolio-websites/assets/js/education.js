@@ -46,20 +46,20 @@ const moocscards = [
       moocLink: "https://www.credly.com/users/naman-kudesia.ac0176ca",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
+      title: "Overview of Web GIS Technology",
+    cardImage: "assets/images/education-page/ISRO.svg",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://drive.google.com/file/d/1dNPvvW4wNqA7YAKwPoLt-fK_xJCcqLsm/view?usp=drivesdk",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+      title: "Machine learning to Deep Learning: A journey for remote sensing data classification",
+      cardImage: "assets/images/education-page/ISRO.svg",
+      moocLink: "https://drive.google.com/file/d/1HX1_QylOoaNSGhRqKpqxewte-uGA-rSv/view?usp=drivesdk",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+      title: "Getting Started with AWS",
+    cardImage: "assets/images/education-page/learn.jpg",
+      moocLink: "https://certificates.simplicdn.net/share/2653763_1624688794.pdf?trk=public_profile_see-credential",
   },
   {
       title: "Basic Ethical Hacking",

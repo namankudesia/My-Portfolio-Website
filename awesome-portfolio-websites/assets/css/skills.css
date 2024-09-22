@@ -3,9 +3,9 @@
     margin-bottom: 30px;
 }
 
-.skill-category h3 {
-    margin-bottom: 20px;
-}
+    .skill-category h3 {
+        margin-bottom: 20px;
+    }
 
 /* Skill item container */
 .skill-item {
@@ -22,10 +22,10 @@
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.skill-icon:hover {
-    transform: scale(1.5);
-    color: #f39c12; /* Change color on hover */
-}
+    .skill-icon:hover {
+        transform: scale(1.5);
+        color: #f39c12; /* Change color on hover */
+    }
 
 /* Skill bar container */
 .skill-bar-container {
@@ -43,21 +43,21 @@
     overflow: hidden;
 }
 
-/* Animated skill bar */
-.skill-bar .progress {
-    background-color: #3498db; /* Progress color */
-    height: 100%;
-    color: #fff;
-    line-height: 30px;
-    padding-right: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 25px;
-    text-align: right;
-    font-weight: bold;
-    transition: width 1s ease;
-}
+    /* Animated skill bar */
+    .skill-bar .progress {
+        background-color: #3498db; /* Progress color */
+        height: 100%;
+        color: #fff;
+        line-height: 30px;
+        padding-right: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 25px;
+        text-align: right;
+        font-weight: bold;
+        transition: width 1s ease;
+    }
 
 /* Skill percentage text */
 .skill-item span {
@@ -146,9 +146,9 @@
     transition: transform 0.3s, color 0.3s;
 }
 
-.skill-icon i {
-    transition: color 0.3s;
-}
+    .skill-icon i {
+        transition: color 0.3s;
+    }
 
 .skill-item:hover .skill-icon i {
     color: #0056b3;
@@ -169,33 +169,110 @@
     border-radius: 5px;
 }
 
-.html-bar { width: 90%; background: #e44b23; }
-.css-bar { width: 85%; background: #0170b8; }
-.js-bar { width: 80%; background: #f7e01d; }
-.react-bar { width: 75%; background: #61dbfb; }
+.html-bar {
+    width: 90%;
+    background: #e44b23;
+}
 
-.java-bar { width: 85%; background: #f89820; }
-.python-bar { width: 80%; background: #306998; }
-.csharp-bar { width: 70%; background: #9b4f3f; }
-.dotnet-bar { width: 65%; background: #68217a; }
+.css-bar {
+    width: 85%;
+    background: #0170b8;
+}
 
-.aws-bar { width: 80%; background: #ff9900; }
-.gcp-bar { width: 70%; background: #4285f4; }
-.azure-bar { width: 65%; background: #0078d4; }
+.js-bar {
+    width: 80%;
+    background: #f7e01d;
+}
 
-.aspnetmvc-bar { width: 75%; background: #5e2a9d; }
-.ef-bar { width: 70%; background: #0078d4; }
-.wordpress-bar { width: 60%; background: #21759b; }
+.react-bar {
+    width: 75%;
+    background: #61dbfb;
+}
 
-.git-bar { width: 85%; background: #f1502f; }
-.photoshop-bar { width: 75%; background: #31a8ff; }
-.illustrator-bar { width: 70%; background: #ff9a00; }
+.java-bar {
+    width: 85%;
+    background: #f89820;
+}
 
-.writing-bar { width: 80%; background: #ff69b4; }
-.ai-tools-bar { width: 70%; background: #00bfff; }
+.python-bar {
+    width: 80%;
+    background: #306998;
+}
 
-.windows-bar { width: 85%; background: #0078d4; }
-.linux-bar { width: 75%; background: #ffcc00; }
+.csharp-bar {
+    width: 70%;
+    background: #9b4f3f;
+}
+
+.dotnet-bar {
+    width: 65%;
+    background: #68217a;
+}
+
+.aws-bar {
+    width: 80%;
+    background: #ff9900;
+}
+
+.gcp-bar {
+    width: 70%;
+    background: #4285f4;
+}
+
+.azure-bar {
+    width: 65%;
+    background: #0078d4;
+}
+
+.aspnetmvc-bar {
+    width: 75%;
+    background: #5e2a9d;
+}
+
+.ef-bar {
+    width: 70%;
+    background: #0078d4;
+}
+
+.wordpress-bar {
+    width: 60%;
+    background: #21759b;
+}
+
+.git-bar {
+    width: 85%;
+    background: #f1502f;
+}
+
+.photoshop-bar {
+    width: 75%;
+    background: #31a8ff;
+}
+
+.illustrator-bar {
+    width: 70%;
+    background: #ff9a00;
+}
+
+.writing-bar {
+    width: 80%;
+    background: #ff69b4;
+}
+
+.ai-tools-bar {
+    width: 70%;
+    background: #00bfff;
+}
+
+.windows-bar {
+    width: 85%;
+    background: #0078d4;
+}
+
+.linux-bar {
+    width: 75%;
+    background: #ffcc00;
+}
 
 
 
@@ -216,12 +293,12 @@
     font-size: 52px; /* Increase font size on hover */
 }
 
-/* Smooth transitions for hover effect */
-.skill-item:hover .skill-icon .iconify {
-    transform: rotate(360deg) scale(1.2); /* Rotate and scale */
-    font-weight: bold; /* Make the icon bold */
-    transition: transform 0.5s ease-in-out, font-size 0.3s ease-in-out;
-}
+    /* Smooth transitions for hover effect */
+    .skill-item:hover .skill-icon .iconify {
+        transform: rotate(360deg) scale(1.2); /* Rotate and scale */
+        font-weight: bold; /* Make the icon bold */
+        transition: transform 0.5s ease-in-out, font-size 0.3s ease-in-out;
+    }
 
 /* Bar hover effect too */
 .skill-item:hover .skill-bar .gcp-bar {
@@ -266,9 +343,9 @@
     transition: width 0.5s ease-in-out; /* Animation for the width change */
 }
 
-.sqlserver-bar:hover {
-    width: 100%; /* Full width on hover */
-}
+    .sqlserver-bar:hover {
+        width: 100%; /* Full width on hover */
+    }
 
 /* SQL Databases Skill Bar */
 .sql-bar {
@@ -280,12 +357,21 @@
     transition: width 0.5s ease-in-out; /* Animation for the width change */
 }
 
-.sql-bar:hover {
-    width: 100%; /* Full width on hover */
+    .sql-bar:hover {
+        width: 100%; /* Full width on hover */
+    }
+
+
+
+.skill-bar {
+    background-color: #f3f3f3; /* Background for the bar */
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px; /* Height of the bar */
 }
 
-
-
-
-
-
+.bar {
+    height: 100%;
+    background-color: #4caf50; /* Color for the filled part */
+    transition: width 0.5s ease; /* Smooth transition */
+}
