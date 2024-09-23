@@ -117,10 +117,7 @@
 
 
 
-.skills-section {
-    padding: 60px 0;
-    background: #f9f9f9;
-}
+
 
 .section-title {
     text-align: center;
@@ -375,3 +372,5 @@
     background-color: #4caf50; /* Color for the filled part */
     transition: width 0.5s ease; /* Smooth transition */
 }
+
+
