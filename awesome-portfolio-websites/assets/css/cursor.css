@@ -2,30 +2,144 @@ html,
 html *,
 body,
 body * {
-  cursor: none;
+    cursor: none;
 }
 
 .cursor-dot,
 .cursor-dot-outline {
-  pointer-events: none;
-  z-index: 2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%; /* Keep it circular */
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .cursor-dot {
-  width: 10px;
-  height: 10px;
-  background-color: #b83030f1;
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000; /* Initial color (glowing red) */
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Initial glow */
+    animation: colorChange 10s infinite; /* Change color every 10 seconds */
 }
 
 .cursor-dot-outline {
-  width: 20px;
-  height: 20px;
-  background-color: rgba(211, 115, 115, 0.959);
+    width: 24px;
+    height: 24px;
+    background-color: rgba(255, 165, 0, 0.3); /* Initial outline color */
+    animation: colorChangeOutline 10s infinite; /* Change outline color every 10 seconds */
+}
+
+.cursor-dot:hover {
+    transform: translate(-50%, -50%) scale(1.3); /* Slight scale on hover */
+}
+
+/* Keyframes for dot color change */
+@keyframes colorChange {
+    0% {
+        background-color: #ff0000;
+        box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+    }
+    /* Glowing red */
+    10% {
+        background-color: #ff7f00;
+        box-shadow: 0 0 10px #ff7f00, 0 0 20px #ff7f00;
+    }
+    /* Glowing orange */
+    20% {
+        background-color: #00ff00;
+        box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+    }
+    /* Glowing green */
+    30% {
+        background-color: #ffff00;
+        box-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00;
+    }
+    /* Glowing yellow */
+    40% {
+        background-color: #00ffff;
+        box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+    /* Glowing cyan */
+    50% {
+        background-color: #0000ff;
+        box-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff;
+    }
+    /* Glowing blue */
+    60% {
+        background-color: #8a2be2;
+        box-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
+    }
+    /* Glowing lavender */
+    70% {
+        background-color: #ff1493;
+        box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493;
+    }
+    /* Glowing pink */
+    80% {
+        background-color: #800080;
+        box-shadow: 0 0 10px #800080, 0 0 20px #800080;
+    }
+    /* Glowing purple */
+    90% {
+        background-color: #ff69b4;
+        box-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+    }
+    /* Glowing hotpink */
+    100% {
+        background-color: #ff0000;
+        box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+    }
+    /* Back to glowing red */
+}
+
+/* Keyframes for outline color change */
+@keyframes colorChangeOutline {
+    0% {
+        background-color: rgba(255, 165, 0, 0.3);
+    }
+
+    10% {
+        background-color: rgba(255, 69, 0, 0.3);
+    }
+    /* Glowing orange */
+    20% {
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+    /* Glowing green */
+    30% {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+    /* Glowing yellow */
+    40% {
+        background-color: rgba(0, 255, 255, 0.3);
+    }
+    /* Glowing cyan */
+    50% {
+        background-color: rgba(0, 0, 255, 0.3);
+    }
+    /* Glowing blue */
+    60% {
+        background-color: rgba(138, 43, 226, 0.3);
+    }
+    /* Glowing lavender */
+    70% {
+        background-color: rgba(255, 20, 147, 0.3);
+    }
+    /* Glowing pink */
+    80% {
+        background-color: rgba(128, 0, 128, 0.3);
+    }
+    /* Glowing purple */
+    90% {
+        background-color: rgba(255, 105, 180, 0.3);
+    }
+    /* Glowing hotpink */
+    100% {
+        background-color: rgba(255, 165, 0, 0.3);
+    }
+    /* Back to glowing orange */
 }

@@ -3,8 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
+    "\\assets\\fonts",
     "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\js\\skills.js",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

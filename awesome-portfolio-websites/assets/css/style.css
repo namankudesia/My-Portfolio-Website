@@ -73,28 +73,28 @@ html[data-theme="dark"] {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
-  border-radius: 2px;
-  background: #f1f1f1;
+    -webkit-box-shadow: inset 0 0 6px #008080;
+    border-radius: 2px;
+    background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  max-height: 10px;
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
-  background: #bb86fc;
-  transition: 0.3s;
+    border-radius: 2px;
+    max-height: 10px;
+    -webkit-box-shadow: inset 0 0 6px #008080;
+    background: #008080;
+    transition: 0.3s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ca9eff;
+  background: #008080;
   
 }
 
 /* Custom Scrollbar for Mozilla Firefox*/
 html{
   overflow-y: visible;
-  scrollbar-color: #ca9eff #f1f1f1;
+  scrollbar-color: #008080 #f1f1f1;
   scrollbar-width: auto;
 }
 
@@ -114,21 +114,21 @@ body {
 /* Scroll to Top button */
 
 #btnScrollToTop {
-  width: 50px;
-  height: 50px;
-  background-color: #bb86fc;
-  color: #fff;
-  margin: 8px;
-  border: none;
-  border-radius: 50%;
-  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  position: fixed;
-  outline: none;
-  bottom: 10px;
-  right: 10px;
-  animation: up 1.5s infinite;
-  -webkit-animation: up 1.5s infinite;
+    width: 50px;
+    height: 50px;
+    background-color: #008080;
+    color: #fff;
+    margin: 8px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    position: fixed;
+    outline: none;
+    bottom: 10px;
+    right: 10px;
+    animation: up 1.5s infinite;
+    -webkit-animation: up 1.5s infinite;
 }
 
 
@@ -236,7 +236,7 @@ html {
 
 .navbar {
   color: #000000;
-  background-color: #fff;
+  background-color: white;
   z-index: 2;
   box-shadow: 0 2px 2px rgb(230, 230, 230);
 }
@@ -266,7 +266,7 @@ html {
   background-color: navy;
   border-radius: 50px;
   transition: all 0.9s;
-  background-color: #f7ca33;
+  background-color: #eb8c07;
 }
 
 .dark_toggler:checked {
@@ -278,7 +278,7 @@ html {
 .dark_toggler:checked:before {
   transform: translate(150%);
   transition: all 0.9s;
-  background-color: #bb86fc;
+  background-color: whitesmoke;
 }
 /* end of dark mode toggle switch button */
 
@@ -387,16 +387,16 @@ color: #ffffff !important;
       z-index: 1;
       text-align: center;
   }
-  .current-link:after {
-      content: "";
-      position: absolute;
-      left: 34%;
-      margin-left: auto;
-      margin-right: auto;
-      bottom: 0;
-      width: 32%;
-      border-bottom: 3px solid #6a00bb;
-  }
+    .current-link:after {
+        content: "";
+        position: absolute;
+        left: 34%;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        width: 32%;
+        border-bottom: 3px solid #008080;
+    }
   
   .nav-item-hover::after {
       content: "";
@@ -406,7 +406,7 @@ color: #ffffff !important;
       height: 0.15em;
       bottom: 0;
       width: 0%;
-      background-color: #6a00bb;
+      background-color: teal;
       transition: all ease-in-out 280ms;
   }
   
@@ -792,15 +792,15 @@ Contact Form In Footer
 *************/
 
 .display {
-  height: auto;
-  width: auto;
-  text-align: left;
-  color: #fff;
-  display: inline;
-  font-size: 25px;
-  font-weight: 200;
-  line-height: 22px;
-  border-bottom: 3px solid #bb86fc;
+    height: auto;
+    width: auto;
+    text-align: left;
+    color: #fff;
+    display: inline;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 22px;
+    border-bottom: 3px solid #008080;
 }
 
 .form-header {
@@ -828,77 +828,77 @@ form {
   border-radius: 2px;
 }
 
-.form-style-6 h1 {
-  background: #bb86fc;
-  font-size: 140%;
-  font-weight: 300;
-  text-align: center;
-  color: #fff;
-  margin: -16px -16px 16px -16px;
-}
+    .form-style-6 h1 {
+        background: #008080;
+        font-size: 140%;
+        font-weight: 300;
+        text-align: center;
+        color: #fff;
+        margin: -16px -16px 16px -16px;
+    }
 
-.form-style-6 input[type="text"],
-.form-style-6 input[type="date"],
-.form-style-6 input[type="datetime"],
-.form-style-6 input[type="email"],
-.form-style-6 input[type="number"],
-.form-style-6 input[type="search"],
-.form-style-6 input[type="time"],
-.form-style-6 input[type="url"],
-.form-style-6 textarea,
-.form-style-6 select {
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  width: 100%;
-  background: transparent;
-  margin-bottom: 4%;
-  border: #000;
-  border-bottom: 2px solid #bb86fc;
-  padding: 3%;
-  color: rgb(107, 105, 105);
-  font: 95% Arial, Helvetica, sans-serif;
-  border-radius: 2px;
-}
+    .form-style-6 input[type="text"],
+    .form-style-6 input[type="date"],
+    .form-style-6 input[type="datetime"],
+    .form-style-6 input[type="email"],
+    .form-style-6 input[type="number"],
+    .form-style-6 input[type="search"],
+    .form-style-6 input[type="time"],
+    .form-style-6 input[type="url"],
+    .form-style-6 textarea,
+    .form-style-6 select {
+        -webkit-transition: all 0.30s ease-in-out;
+        -moz-transition: all 0.30s ease-in-out;
+        -ms-transition: all 0.30s ease-in-out;
+        -o-transition: all 0.30s ease-in-out;
+        outline: none;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        background: transparent;
+        margin-bottom: 4%;
+        border: #000;
+        border-bottom: 2px solid #008080;
+        padding: 3%;
+        color: rgb(107, 105, 105);
+        font: 95% Arial, Helvetica, sans-serif;
+        border-radius: 2px;
+    }
 
-.form-style-6 input[type="text"]:focus,
-.form-style-6 input[type="date"]:focus,
-.form-style-6 input[type="datetime"]:focus,
-.form-style-6 input[type="email"]:focus,
-.form-style-6 input[type="number"]:focus,
-.form-style-6 input[type="search"]:focus,
-.form-style-6 input[type="time"]:focus,
-.form-style-6 input[type="url"]:focus,
-.form-style-6 textarea:focus,
-.form-style-6 select:focus {
-  box-shadow: 0 0 5px #bb86fc;
-  padding: 3%;
-  border: 1px solid #bb86fc;
-  border-radius: 2px;
-}
+        .form-style-6 input[type="text"]:focus,
+        .form-style-6 input[type="date"]:focus,
+        .form-style-6 input[type="datetime"]:focus,
+        .form-style-6 input[type="email"]:focus,
+        .form-style-6 input[type="number"]:focus,
+        .form-style-6 input[type="search"]:focus,
+        .form-style-6 input[type="time"]:focus,
+        .form-style-6 input[type="url"]:focus,
+        .form-style-6 textarea:focus,
+        .form-style-6 select:focus {
+            box-shadow: 0 0 5px #008080;
+            padding: 3%;
+            border: 1px solid #008080;
+            border-radius: 2px;
+        }
 
-.form-style-6 input[type="submit"],
-.form-style-6 input[type="button"] {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  width: 100%;
-  margin-top: 2rem;
-  padding: 3%;
-  background: #bb86fc;
-  border-bottom: 2px solid #bb86fc;
-  border-radius: 23px;
-  border-top-style: none;
-  border-right-style: none;
-  border-left-style: none;
-  color: #fff;
-  font-size: 20px;
-}
+    .form-style-6 input[type="submit"],
+    .form-style-6 input[type="button"] {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        margin-top: 2rem;
+        padding: 3%;
+        background: #008080;
+        border-bottom: 2px solid #008080;
+        border-radius: 23px;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+        color: #fff;
+        font-size: 20px;
+    }
 
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover {
@@ -1023,15 +1023,15 @@ outline: none;
     
 }
 #lnch {
-  font-size: 25px;
-  color: #fff;
-  line-height: 1;
-  /* padding: 20px 25px; */
-  text-align: center;
-  border-radius: 50px;
-  border-style: none;
-  transition: 0.5s ease background-color, 0.5s ease box-shadow;
-  background: #bb86fc;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1;
+    /* padding: 20px 25px; */
+    text-align: center;
+    border-radius: 50px;
+    border-style: none;
+    transition: 0.5s ease background-color, 0.5s ease box-shadow;
+    background: #008080;
 }
 #lnch_btn {
   position: absolute;
