@@ -69,9 +69,65 @@
         <!-- Home Section -->
         <div class="text col-sm-6" style="margin-top: 140px;">Hi <span class="wave"><img src="assets/images/Hand.gif" width="35px"></span>&nbsp;, I'm <span class="header">Naman Kudesia</span>
             <div class="center">
-                <div>
-                    <img src="assets/images/DSC_1408.JPG" alt="" class="rounded-circle" height="200" width="200">
-                </div>
+                <div class="image-container">
+    <div class="image-flip" id="flip-image">
+        <img src="assets/images/DSC_1408.JPG" alt="Casual Profile Image" class="active">
+        <img src="assets/images/John-Doe1.png" alt="New Casual Image" class="new-image">
+        <img src="assets/images/DSC_1408.JPG" alt="Another Casual Image" class="new-image">
+    </div>
+</div>
+
+<style>
+    .image-container {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        margin: 20px; /* Add margin for spacing */
+    }
+
+    .image-flip {
+        position: relative;
+    }
+
+    .image-flip img {
+        border-radius: 15px; /* Rounded rectangle shape */
+        object-fit: cover;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.4); /* Neon effect */
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        width: 200px; /* Reduced width */
+        height: 300px; /* Reduced height */
+        display: none; /* Hide all images by default */
+    }
+
+    .image-flip img.active {
+        display: block; /* Show active image */
+    }
+
+    .image-flip img:hover {
+        transform: scale(1.05); /* Subtle zoom effect on hover */
+        box-shadow: 0 0 25px rgba(0, 255, 255, 1), 0 0 40px rgba(0, 255, 255, 0.7); /* Brighter neon on hover */
+    }
+</style>
+
+<script>
+    const images = document.querySelectorAll('.image-flip img');
+    let currentIndex = 0;
+
+    function showImage(index) {
+        images.forEach((img, i) => {
+            img.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    }
+
+    // Change image every 7 seconds
+    setInterval(nextImage, 7000);
+</script>
+
                 <br/>
                 <span style="display: inline;">I am into <span class="animated-text"
                     data-words="Software Development, Cloud Computing, Web Development, Open Source"></span>

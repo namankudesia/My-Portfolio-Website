@@ -2,10 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
+    "\\assets\\custom_illustrations",
+    "\\assets\\docs",
     "\\assets\\fonts",
+    "\\assets\\icons",
+    "\\assets\\icons\\arrow-right",
+    "\\assets\\images",
+    "\\assets\\images\\contact form",
     "\\assets\\js"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\images\\contact form\\contact.svg",
   "PreviewInSolutionExplorer": false
 }

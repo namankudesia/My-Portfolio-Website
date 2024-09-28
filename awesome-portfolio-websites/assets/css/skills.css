@@ -5,7 +5,11 @@
 
     .skill-category h3 {
         margin-bottom: 20px;
+        color: #333; /* Adjust this if you want to change the text color */
+        text-shadow: 0 0 5px rgba(255, 204, 0, 0.8), /* Gold glow */
+        0 0 10px rgba(255, 204, 0, 0.6), 0 0 15px rgba(255, 204, 0, 0.4);
     }
+
 
 /* Skill item container */
 .skill-item {
@@ -358,10 +362,10 @@
         width: 100%; /* Full width on hover */
     }
 
-
+    
 
 .skill-bar {
-    background-color: #f3f3f3; /* Background for the bar */
+    background-color: #c7cecc; /* Background for the bar */
     border-radius: 5px;
     overflow: hidden;
     height: 10px; /* Height of the bar */
