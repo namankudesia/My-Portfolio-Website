@@ -10,7 +10,7 @@ const exp = [
     place: "Infinite Computer Solutions",
     Location:"Chennai, India",
     time: "(May, 2024 - present)",
-    desp: "<li>Got training on ASP.Net Technolgies like (ASP.Net Framework with C#, ADO.Net, Entity Framework, MVC), Web APIs, Advance SQL, Web Technolgies.</li>"
+    desp: "<li>Completed rigorous training to advance expertise in .NET development, SQL database management, and Azure fundamentals.</li><li>This includes mastering Microsoft technologies such as Visual Studio and SQL Server, along with enhancing proficiency in web technologies like HTML, CSS, JavaScript, and XML. Additionally, Deepening knowledge of cloud computing principles and services, particularly in Azure, to deploy secure and scalable applications effectively.</li><li>Currently deployed into healthcare project.</li>"
   },
   {
     title: "Virtual Customer Service Associate",
@@ -18,7 +18,7 @@ const exp = [
       place: "Amazon",
       Location: "Remote",
     time: "(July, 2023 - Aug, 2023)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li></li>",
+    desp: "<li>Provided prompt and courteous assistance to customers through virtual platforms, enhancing communication and problem-solving skills.</li><li>Managed customer inquiries and issues effectively, ensuring high satisfaction rates and gaining proficiency in customer relationship management.</li><li>Collaborated closely with team members and supervisors to uphold service excellence and foster a positive work environment.</li>",
   },
   {
     title: "Web Developer Intern",
@@ -26,15 +26,15 @@ const exp = [
       place: "Indian Pharma Educational Society",
       Location: "Lucknow, India",
     time: "(Apr, 2022 - Jun, 2022)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp: "<li>Led the development of a customized WordPress website for Indian Pharma Educational Society, focusing on enhancing online visibility and user engagement.</li><li>Implemented features to attract prospective students interested in pharmaceutical courses, ensuring alignment with the organization’s educational mission and goals.</li>",
     },
     {
         title: "Cloud Computing Intern",
         cardImage: "assets/images/experience-page/MTE.jpg",
         place: "MedTourEasy",
         Location: "Remote",
-        time: "(Apr, 2022 - Jun, 2022)",
-        desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+        time: "(Oct, 2021 - Nov, 2021)",
+        desp: "<li>Led the development of the 'Setup and Configure a Cloud Environment' project under mentorship, demonstrating strong work ethic and proactive problem-solving skills.</li><li>Gained practical, hands-on experience in deploying and managing cloud resources, focusing on Google Cloud technologies.</li>",
     },
     {
         title: "Web Developer Intern",
@@ -42,7 +42,7 @@ const exp = [
         place: "Sun Infotech Solutions",
         Location: "Lucknow, India",
         time: "(Oct, 2020 - Nov, 2020)",
-        desp: "<li>Developed an E-Commerce Website as which was Mobile E-Shopping website in which user can see and compare the features of the smartphones and get link for the best price</li>The website was based on ASP.Net Technology</li>",
+        desp: "<li>Developed an E-Commerce Website as which was Mobile E-Shopping website in which user can see and compare the features of the smartphones and get link for the best price</li>The website was based on ASP.Net Technology and SQL Server Database.</li>",
     },
 ];
 
@@ -107,6 +107,7 @@ const volunteershipcards = [
     description:
       "Organized an International Mathematics Webinar conducted in College.",
   },
+  
 ];
 
 const showCards = () => {
@@ -160,6 +161,20 @@ const mentor = [
       desp: "Participated in National Cyber Olympiad conducted by Science Olympiad Foundation (SOF).",
       href: "https://www.sofolympiadtrainer.com/nco-olympiad.jsp#:~:text=The%20National%20Cyber%20Olympiad%20%28NCO%29%20is%20a%20cyber,scientists%2C%20technologists%20and%20IT%20talent%20at%20school%20level.",
   },
+  {
+    title: "Hand Gesture Controlled Movable Pick and Place Robot",
+  subtitle: "Author",
+  image: "assets/images/experience-page/research1.png",
+    desp: "Pubished research paper on 'Hand Gesture Controlled Movable Pick and Place Robot' at ENGPAPER.COM (January 25, 2023)",
+    href: "https://www.engpaper.com/download/hand-gesture-controlled-robot-1.pdf",
+},
+{
+  title: "Leveraging Cryptographic Approaches to Secure Cloud Storage",
+subtitle: "Author",
+image: "assets/images/experience-page/research2.png",
+  desp: "Pubished research paper on 'Leveraging Cryptographic Approaches to Secure Cloud Storage' at ENGPAPER.COM (April 11, 2022)",
+  href: "https://www.engpaper.com/download/engpaper-journal-leveraging-cryptographic-approaches-to-secure-cloud-storage.pdf",
+},
   
 ];
 

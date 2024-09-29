@@ -1,7 +1,7 @@
 /* Declaration of CSS variables for light/dark theme */
 
 html[data-theme="light"] {
-  --col-icon: black;
+  --col-icon: rgb(0, 0, 0);
   --col-bd-radius: rgb(2, 2, 2);
   --col-box-shadow: #000000 2px 2px 4px, #4D4D4D -2px -2px 4px;
   --col-box-shadow-hover: inset #8a7373 2px 2px 4px, inset #4D4D4D -2px -2px 4px;
@@ -159,7 +159,7 @@ a.socialicon {
 
 /* Social icon in dark mode */
 html[light-mode="dark"] .socialicon {
-  background-color: #141516;
+  background-color: #3b3b3b;
 }
 
 .kaggle i {
@@ -581,3 +581,5 @@ html[light-mode="dark"] .socialicon {
     margin-top: 1rem;
   }
 }
+
+

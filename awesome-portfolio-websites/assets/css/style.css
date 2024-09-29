@@ -23,6 +23,7 @@ html[data-theme="light"] {
   --col-icon-twitter: #1da1f2;
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
+  --col-icon-x: #0e76a8;
   --col-icon-kaggle: #41aff3;
   --col-icon-github: #24292e;
   --col-icon-instagram: rgb(201, 94, 174);
@@ -297,7 +298,7 @@ html {
 .dark_toggler:checked {
   background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
   transition: background-image 0.9s;
-  box-shadow: 0px 2px 5px 1px rgb(187, 134, 201);
+  box-shadow: 0px 2px 5px 1px rgb(243, 242, 217);
 }
 
 .dark_toggler:checked:before {
@@ -309,7 +310,7 @@ html {
 html {
     background: linear-gradient(135deg, #f6f6f6 5%, #e0e5ec); /* Scattered light grey to pale blue gradient */
     transition: background 0.3s;
-    color: #2c3e50; /* Darker text color for readability */
+    color: #49502c; /* Darker text color for readability */
     text-shadow: 0 0 2px #B0C4DE; /* Reduced glowy shadow effect */
 
 }
@@ -493,7 +494,7 @@ html {
 
 /* navbar hover for light mode */
 html[light-mode="light"] .nav-link {
-    color: #1e0700 !important;
+    color: #001e15 !important;
     transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
     animation: textGlow 3s infinite alternate;
 }
@@ -513,7 +514,7 @@ html[light-mode="light"] .nav-link {
 
     html[light-mode="light"] .nav-link:hover {
         color: rgb(0, 128, 128) !important; /* Teal color */
-        text-shadow: 0 0 5px rgb(0, 128, 128), 0 0 10px rgb(0, 128, 128), 0 0 15px rgb(0, 128, 128); /* Glowing effect */
+        text-shadow: 0 0 5px rgb(0, 128, 128), 0 0 10px rgb(0, 128, 128), 0 0 15px rgb(0, 128, 128); Glowing effect
     }
 
 
@@ -596,12 +597,12 @@ html[light-mode="light"] .nav-link {
 
 .footer {
   padding-top: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
   background-color: #121212;
 }
 
 .tag {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
   font: size 20px;
   line-height: 26px;
   text-align: center;
@@ -981,17 +982,17 @@ form {
         font-size: 20px;
     }
 
-.form-style-6 input[type="submit"]:hover,
+/* .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover {
   background:#6a00bbd;
 
-}
+} */
 
 .form-comtainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
 }
 
 .footer hr {

@@ -8,7 +8,7 @@
     --atom-size: 400px;
     --nucleus-size: calc(var(--atom-size) / 6);
     --electron-size: calc(var(--atom-size) / 30);
-    --electron-orbit-size: calc(var(--atom-size) / 2.2);
+    --electron-orbit-size: calc(var(--atom-size) / 9.2);
 }
 
 /* Loader Container */
@@ -16,7 +16,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(135deg, #1a1a1a, #0d0d0d); /* Dark gradient background */
+    background: linear-gradient(135deg, #706348, #2c0606); /* Dark gradient background */
     height: 100%;
     width: 100%;
     display: flex;

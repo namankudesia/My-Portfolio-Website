@@ -48,11 +48,11 @@ const projects = [
   },
   {
     title: "News and Updates Websites",
-    cardImage: "assets/images/project-page/poker.jpg",
+    cardImage: "assets/images/project-page/news.png",
     description: "Poker game built using typescript.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/namankudesia/Static-News-Website",
   },
   
 ];

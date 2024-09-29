@@ -1,0 +1,38 @@
+
+<svg width="200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <g id="ProfessionalMan" fill="none" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="100" cy="50" r="30" fill="#FFD700" />
+    
+    <!-- Body -->
+    <rect x="70" y="80" width="60" height="100" fill="#4682B4" rx="10" ry="10">
+      <animate attributeName="fill" values="#4682B4;#4169E1;#4682B4" dur="2s" repeatCount="indefinite" />
+    </rect>
+    
+    <!-- Arms -->
+    <rect x="40" y="80" width="30" height="10" fill="#FFD700" />
+    <rect x="130" y="80" width="30" height="10" fill="#FFD700" />
+    
+    <!-- Legs -->
+    <rect x="70" y="180" width="20" height="50" fill="#A9A9A9" />
+    <rect x="110" y="180" width="20" height="50" fill="#A9A9A9" />
+    
+    <!-- Laptop -->
+    <rect x="85" y="60" width="30" height="20" fill="#C0C0C0" rx="5" ry="5">
+      <animate attributeName="y" from="60" to="70" dur="1s" repeatCount="indefinite" begin="0s" />
+    </rect>
+    <rect x="85" y="70" width="30" height="2" fill="#000" />
+    
+    <!-- Details on Laptop -->
+    <rect x="90" y="75" width="5" height="5" fill="#00FF00" />
+    <rect x="100" y="75" width="5" height="5" fill="#FF0000" />
+    <rect x="110" y="75" width="5" height="5" fill="#0000FF" />
+    
+    <!-- Eyes -->
+    <circle cx="90" cy="45" r="5" fill="#000" />
+    <circle cx="110" cy="45" r="5" fill="#000" />
+    
+    <!-- Smile -->
+    <path d="M90,60 Q100,70 110,60" stroke="#000" stroke-width="2" fill="none" />
+  </g>
+</svg>

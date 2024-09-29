@@ -58,18 +58,20 @@ body {
     margin-bottom: 20px;
 }
 
-    .profile-pic img {
-        width: 100%;
-        max-width: 200px;
-        border-radius: 50%;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+.profile-pic img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 255, 0, 0.7); /* Added glow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 5px solid transparent; /* Optional: solid border */
+}
 
-        .profile-pic img:hover {
-            transform: scale(1.1);
-            /* box-shadow removed for hover */
-        }
+.profile-pic img:hover {
+    transform: scale(1.1);
+    /* box-shadow removed for hover */
+}
+
 
 h1, h2 {
     color: #007BFF; /* Fun blue color */
@@ -188,3 +190,4 @@ button {
         margin-bottom: 20px;
     }
 }
+

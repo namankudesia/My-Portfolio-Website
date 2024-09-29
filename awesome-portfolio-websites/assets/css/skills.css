@@ -191,42 +191,42 @@
 }
 
 .java-bar {
-    width: 85%;
+    width: 80%;
     background: #f89820;
 }
 
 .python-bar {
-    width: 80%;
+    width: 70%;
     background: #306998;
 }
 
 .csharp-bar {
-    width: 70%;
+    width: 85%;
     background: #9b4f3f;
 }
 
 .dotnet-bar {
-    width: 65%;
+    width: 85%;
     background: #68217a;
 }
 
 .aws-bar {
-    width: 80%;
+    width: 60%;
     background: #ff9900;
 }
 
 .gcp-bar {
-    width: 70%;
+    width: 80%;
     background: #4285f4;
 }
 
 .azure-bar {
-    width: 65%;
+    width: 75%;
     background: #0078d4;
 }
 
 .aspnetmvc-bar {
-    width: 75%;
+    width: 83%;
     background: #5e2a9d;
 }
 
@@ -236,17 +236,17 @@
 }
 
 .wordpress-bar {
-    width: 60%;
+    width: 70%;
     background: #21759b;
 }
 
 .git-bar {
-    width: 85%;
+    width: 90%;
     background: #f1502f;
 }
 
 .photoshop-bar {
-    width: 75%;
+    width: 72%;
     background: #31a8ff;
 }
 
@@ -256,22 +256,22 @@
 }
 
 .writing-bar {
-    width: 80%;
+    width: 70%;
     background: #ff69b4;
 }
 
 .ai-tools-bar {
-    width: 70%;
+    width: 93%;
     background: #00bfff;
 }
 
 .windows-bar {
-    width: 85%;
+    width: 94%;
     background: #0078d4;
 }
 
 .linux-bar {
-    width: 75%;
+    width: 68%;
     background: #ffcc00;
 }
 
@@ -338,7 +338,7 @@
 .sqlserver-bar {
     width: 90%; /* Adjust the width as needed */
     height: 8px; /* Adjust the height of the bar */
-    background-color: #0078D4; /* Color of the bar */
+    background-color: #35d400ce; /* Color of the bar */
     border-radius: 5px; /* Rounded corners for the bar */
     position: relative;
     transition: width 0.5s ease-in-out; /* Animation for the width change */

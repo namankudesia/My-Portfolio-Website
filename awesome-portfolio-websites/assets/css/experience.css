@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 
 html[light-mode="light"] {
   --bg1-color: rgba(0, 0, 0, 0);
@@ -97,7 +96,7 @@ section > div {
 
 /*color of experience page headings*/
 .my_experience {
-  color: #4e00bb;
+  color: #008080;
 }
 
 .sub-heading {
@@ -285,7 +284,7 @@ ul ol {
   font-size: 2rem;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: var(--head-col);
+  color: #e42343bf;
   text-align: center;
 }
 
@@ -456,7 +455,7 @@ ul ol {
   transform: translateY(40px);
   transition: all 0.7s;
   font-weight: 900;
-  color: #303f9f;
+  color: #e25204;
 }
 
 .copy {
